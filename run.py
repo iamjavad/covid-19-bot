@@ -25,7 +25,7 @@ def covid(updater, context):
 	url = "https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/total"
 	querystring = {"country":"Iran"}
 	headers = {
-	    'x-rapidapi-key': "7a61b9e1e4mshbd28c587d1a254dp136a20jsn0007c28f0d43",
+	    'x-rapidapi-key': "",
 	    'x-rapidapi-host': "covid-19-coronavirus-statistics.p.rapidapi.com"
 	    }
 	response = requests.request("GET", url, headers=headers, params=querystring)
