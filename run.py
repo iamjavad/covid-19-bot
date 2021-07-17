@@ -15,7 +15,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 #start function
 def start(updater, context):
-	context.bot.send_message(chat_id=updater.effective_chat.id, text='this is start')
+	context.bot.send_message(chat_id=updater.effective_chat.id, text="""Hi\nthis is covid-19 iran telegram bot\nto recive information about covid-19 in iran click on /covid\nsource code: """)
 start_handler = CommandHandler('start', start)
 dispatcher.add_handler(start_handler)
 
